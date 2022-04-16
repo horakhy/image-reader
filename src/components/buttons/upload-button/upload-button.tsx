@@ -3,7 +3,7 @@ import "./upload-button.scss";
 
 export const UploadButton = () => {
   return (
-    <div className="upload-button">
+    <span className="upload-button">
       <Button
         onClick={() => {
           console.log("Clicou");
@@ -14,6 +14,6 @@ export const UploadButton = () => {
         Upload File
         <input type="file" accept="image/*" hidden />
       </Button>
-    </div>
+    </span>
   );
 };

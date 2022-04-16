@@ -2828,6 +2828,67 @@ binary-extensions@^2.0.0:
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-2.2.0.tgz#75f502eeaf9ffde42fc98829645be4ea76bd9e2d"
   integrity sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==
 
+blas-dasum@^1.0.1:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/blas-dasum/-/blas-dasum-1.0.2.tgz#7548620c219b0464d6dfa95162d6a06c242b4ab7"
+  integrity sha1-dUhiDCGbBGTW36lRYtagbCQrSrc=
+  dependencies:
+    math-abs "^1.0.0"
+
+blas-daxpy@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/blas-daxpy/-/blas-daxpy-1.0.3.tgz#c357359b473496c9ba309be8f9afec0522b89506"
+  integrity sha1-w1c1m0c0lsm6MJvo+a/sBSK4lQY=
+
+blas-dcopy@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/blas-dcopy/-/blas-dcopy-1.0.1.tgz#90ac1aad3d40c75d9d31d8d9321c0758d6152317"
+  integrity sha1-kKwarT1Ax12dMdjZMhwHWNYVIxc=
+
+blas-ddot@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/blas-ddot/-/blas-ddot-1.0.0.tgz#56b7caef13a7bdb067243b23ffc403292d2f67c1"
+  integrity sha1-VrfK7xOnvbBnJDsj/8QDKS0vZ8E=
+
+blas-dnrm2@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/blas-dnrm2/-/blas-dnrm2-1.0.0.tgz#f7e78099ac6c5fede89b6b7cd8dd9bbb7d528df2"
+  integrity sha1-9+eAmaxsX+3om2t82N2bu31SjfI=
+  dependencies:
+    math-abs "^1.0.1"
+    math-sqrt "^1.0.0"
+
+blas-dscal@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/blas-dscal/-/blas-dscal-1.0.0.tgz#004b52bbf5686cfab7e3aa61e1bf6fa9354e4981"
+  integrity sha1-AEtSu/VobPq346ph4b9vqTVOSYE=
+
+blas-dswap@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/blas-dswap/-/blas-dswap-1.0.0.tgz#42aea84bd3896f814f07592cd965551f7694fc20"
+  integrity sha1-Qq6oS9OJb4FPB1ks2WVVH3aU/CA=
+
+blas-idamax@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/blas-idamax/-/blas-idamax-1.0.0.tgz#6e92e3c9a73213d17890553144d50fe147aa5659"
+  integrity sha1-bpLjyacyE9F4kFUxRNUP4UeqVlk=
+  dependencies:
+    math-abs "^1.0.1"
+
+blas@^0.2.7:
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/blas/-/blas-0.2.7.tgz#851e026c958c2cc3758a9ae327d6dc63c4856abd"
+  integrity sha512-uEbVuYYv/P6TbisHIojEcpswofwWf+HUsoidNfNrj97QYMfv/xkZGIEw7oA2lMm2H/i7c6UwpGhx72BcAnWwIw==
+  dependencies:
+    blas-dasum "^1.0.1"
+    blas-daxpy "^1.0.3"
+    blas-dcopy "^1.0.1"
+    blas-ddot "^1.0.0"
+    blas-dnrm2 "^1.0.0"
+    blas-dscal "^1.0.0"
+    blas-dswap "^1.0.0"
+    blas-idamax "^1.0.0"
+
 bluebird@^3.5.5:
   version "3.7.2"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
@@ -6344,6 +6405,16 @@ map-obj@^4.0.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/map-obj/-/map-obj-4.3.0.tgz#9304f906e93faae70880da102a9f1df0ea8bb05a"
   integrity sha512-hdN1wVrZbb29eBGiGjJbeP8JbKjq1urkHJ/LIP/NY48MZ1QVXUsQBV1G1zvYFHn1XE06cwjBsOI2K3Ulnj1YXQ==
+
+math-abs@^1.0.0, math-abs@^1.0.1:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/math-abs/-/math-abs-1.0.2.tgz#8fb2675d969327a61a629821fc23e41faac5c4d3"
+  integrity sha1-j7JnXZaTJ6YaYpgh/CPkH6rFxNM=
+
+math-sqrt@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/math-sqrt/-/math-sqrt-1.0.1.tgz#37f5639d67d317d7273cdaae984c5d775a143425"
+  integrity sha1-N/VjnWfTF9cnPNqumExdd1oUNCU=
 
 mdn-data@2.0.14:
   version "2.0.14"

@@ -1,5 +1,6 @@
 import { Button, TextField } from "@material-ui/core";
-import { UploadButton } from "../components/buttons/upload-button";
+import { MatrixButton } from "../components/buttons/matrix-op-button/matrix-op-button";
+import { UploadButton } from "../components/buttons/upload-button/upload-button";
 import "./image-reader.scss";
 
 const ImageReader = () => {
@@ -8,9 +9,10 @@ const ImageReader = () => {
       <div className="image-reader-header">
         <h1 className="image-reader-header-text">Image Reader 2.0</h1>
       </div>
-      <div className="button-body">
+      <span className="image-reader-button-body">
         <UploadButton />
-      </div>
+		<MatrixButton />
+      </span>
     </div>
   );
 };
