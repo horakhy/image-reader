@@ -1,3 +1,11 @@
+@use '~styles/constants' as *;
+
+
+body {
+  margin: 0;
+  font-family: 'Frutiger';
+}
+
 .App {
   text-align: center;
 }

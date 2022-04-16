@@ -1,0 +1,22 @@
+body {
+  background-color: lightblue;
+}
+
+.image-reader {
+  &--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lightblue;
+  }
+
+  &-header {
+    display: flex;
+    justify-content: center;
+    color: blue;
+
+    &-text {
+      color: blue;
+    }
+  }
+}
