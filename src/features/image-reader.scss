@@ -1,5 +1,8 @@
+@use '../styles/constants/' as *;
+
 body {
-  background-color: lightblue;
+  // background: rgb(221, 217, 217) url('../images/skull-logo.svg') no-repeat fixed center;
+    background-color: rgb(221, 217, 217)
 }
 
 .image-reader {
@@ -7,7 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: lightblue;
+    margin-top: 30px;
   }
 
   &-header {
